@@ -16,3 +16,16 @@ p {
 .notion-divider {
     border-bottom: 1px solid var(--divider-color) !important;
 }
+/* Links  */
+
+.notion-link, .link {
+  color: var(--color-text-gray) !important;
+  text-decoration: none !important;
+  border: none !important;
+  transition: var(--transition) !important;
+}
+
+.notion-link:hover, link:hover {
+  color: var(--text-color) !important;
+  transition: var(--transition) !important;
+}
