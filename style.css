@@ -4,10 +4,15 @@ Hey you, weird part of internet you're in now eh?
 
 /* Typography */
 h1, h2, h3, h4, h5, h6, p {
+    font-style: noto-sans, sans-serif;
     font-weight: 400 !important;
 }
 
 p {
   font-size: 18px !important;
   line-height: 200% !important;
+}
+/* Divider */
+.notion-divider {
+    border-bottom: 1px solid var(--divider-color) !important;
 }
