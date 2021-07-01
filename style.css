@@ -1,15 +1,12 @@
 /*
-
-Context Site Template
-Powered by Super.so
-
+Hey you, weird part of internet you're in now eh?
 */
 
 /* Custom font */
 @font-face {
-    font-family: 'orpheus';
-    src:  url('https://sites.super.so/context/assets/orpheus.woff') format('woff'),
-          url('https://sites.super.so/context/assets/orpheus.ttf') format('truetype');
+    font-family: noto-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
 }
 
 /* Variables */
